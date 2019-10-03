@@ -1,0 +1,57 @@
+/*
+Theme name: CEREHE Engineering Works
+Author: Christoper
+Version:1,0,0
+*/
+
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+html {scroll-behavior; smooth;}
+body {background: #ffffff:font-family:'Open Sans', sans-serif;}
+h1,h2,h3,h4,h5,h6,{font-family; 'Lato', sans-serif;font-weight;300;color;green}
+h3{font-size:22px}
+header{background: #ffffff}
+main{background: #ffffff}
+footer{color: #000000}
+
+
+
+
+
+
+
+ .google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+ .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {576px}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {768px}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {992px}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {1200px}
+
+
+
+
+
+
+
